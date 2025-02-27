@@ -66,6 +66,6 @@ bst.insert(17);
 
 console.log("BST Contains 7:", bst.contains(7)); // Expected: true
 console.log("BST Min Value:", bst.findMin()); // Expected: 3
-console.log("BST Max Depth:", bst.maxDepth()); // Expected: 3
+console.log("BST Max Depth:", bst.maxDepth()); // Expected: 2
 console.log("BST DFS Traversal:", bst.dfs()); // Expected: [10, 5, 3, 7, 15, 13, 17] (or similar)
 console.log("BST BFS Traversal:", bst.bfs()); // Expected: [10, 5, 15, 3, 7, 13, 17] (or similar)
